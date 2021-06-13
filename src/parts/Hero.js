@@ -37,11 +37,11 @@ export default function Hero(props) {
                             <h6 className="mt-3">{formatNumber(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span></h6>
                         </div>
                         <div className="col-auto" style={{ marginRight: 35 }}>
-                            <img width="36" height="36" src={IconTreasure}></img>
+                            <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasures}`}></img>
                             <h6 className="mt-3">{formatNumber(props.data.treasures)} <span className="text-gray-500 font-weight-light">treasures</span></h6>
                         </div>
                         <div className="col-auto">
-                            <img width="36" height="36" src={IconCities}></img>
+                            <img width="36" height="36" src={IconCities} alt={`${props.data.cities}`}></img>
                             <h6 className="mt-3">{formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span></h6>
                         </div>
                     </div>
