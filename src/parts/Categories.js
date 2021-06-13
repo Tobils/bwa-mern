@@ -35,7 +35,7 @@ export default function Categories({data}) {
                                 </figure>
 
                                 <div className="meta-wrapper">
-                                    <Button className="streched-link d-block text-gray-800" href={`/properties/${item._id}`} type="link">
+                                    <Button className="stretched-link d-block text-gray-800" href={`/properties/${item._id}`} type="link">
                                         <h5 className="h4">
                                             {item.name}
                                         </h5>
