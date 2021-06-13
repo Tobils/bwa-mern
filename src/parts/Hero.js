@@ -4,7 +4,7 @@ import ImageHeroFrame from 'assets/images/image-hero-frame.jpg'
 import IconCities from 'assets/icons/ic_cities.svg' 
 import IconTreasure from 'assets/icons/ic_treasure.svg' 
 import IconTraveler from 'assets/icons/ic_traveler.svg' 
-import Button from 'elements/button'
+import Button from 'elements/Button'
 import formatNumber from 'utils/formatNumber'
 
 export default function Hero(props) {
